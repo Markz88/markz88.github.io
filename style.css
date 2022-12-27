@@ -8,6 +8,12 @@
     --delay: .3s;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -33,10 +39,47 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+#mailicon, #mailicon img {
+    width: 42px;
+    height: 42px;
+    margin: 10px;
+}
+
+#mailtext {
+    color: var(--accentColor);
+    font-size: 12px;
+    line-height: 1.25;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
 #userName {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#academic-position {
+    color: var(--accentColor);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#affiliation {
+    color: var(--accentColor);
+    font-size: 12px;
     line-height: 1.25;
     display: block;
     font-family: var(--font);
